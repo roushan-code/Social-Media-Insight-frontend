@@ -1,24 +1,19 @@
-import React, { useState } from 'react'
-import AdminLayout from './AdminLayout'
 import {
-    TextField,
-    Button,
-    Select,
-    MenuItem,
-    FormControl,
-    InputLabel,
-    RadioGroup,
-    Radio,
-    FormControlLabel,
-    Checkbox,
-    FormLabel,
-    Typography,
-    Grid,
-    Box,
-  } from '@mui/material';
-import { useAddPostDetailsMutation } from '../../redux/api/api';
+  Box,
+  Button,
+  FormControl,
+  Grid,
+  InputLabel,
+  MenuItem,
+  Select,
+  TextField,
+  Typography
+} from '@mui/material';
+import React, { useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
+import { useAddPostDetailsMutation } from '../../redux/api/api';
+import AdminLayout from './AdminLayout';
 
 const AddPostDetails = () => {
     const navigate = useNavigate();
