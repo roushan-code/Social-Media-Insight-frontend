@@ -88,7 +88,7 @@ const AddPostDetails = () => {
               >
                 <MenuItem value="carousel">Carousel</MenuItem>
                 <MenuItem value="reel">Reel</MenuItem>
-                <MenuItem value="share">Share</MenuItem>
+                <MenuItem value="static">Static</MenuItem>
               </Select>
             </FormControl>
           </Grid>
