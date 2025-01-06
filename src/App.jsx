@@ -1,9 +1,6 @@
 import React, { lazy, Suspense, useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import ProtectRoute from './components/auth/ProtectRoute';
 import './App.css'
-import axios from 'axios';
-import { useDispatch, useSelector } from 'react-redux';
 
 const NotFound = lazy(() => import('./components/pages/NotFound'));
 
