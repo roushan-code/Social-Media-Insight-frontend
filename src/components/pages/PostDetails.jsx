@@ -119,7 +119,7 @@ const columns = [{
 
   return  (
     <AdminLayout>
-      {isLoading ? <h3>Loading</h3> : <UserTable heading={"All Employees"} columns={columns} rows={rows} />}
+      {isLoading ? <h3>Loading</h3> : <UserTable heading={"Post Details"} columns={columns} rows={rows} />}
     </AdminLayout>
   );
 };
