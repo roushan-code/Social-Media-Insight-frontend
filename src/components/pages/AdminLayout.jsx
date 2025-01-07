@@ -57,7 +57,7 @@ const Sidebar = ({ w = "100%" }) => {
     return (
         <Stack width={w} height={'100vh'} alignItems={'center'} direction={"column"} p={"3rem"} spacing={"3rem"} bgcolor={'rgb(9 10 13)'} >
             <Typography variant="h5" color={'#a1b1ff'} textTransform={"uppercase"}>
-                Employee Details
+                Media Insights
             </Typography>
             <Stack spacing={"1rem"} width={'200px'}>
                 {adminTabs.map((tab) => (

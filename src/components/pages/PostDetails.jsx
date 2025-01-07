@@ -60,19 +60,6 @@ const columns = [{
   width: 150,
 },
 // {
-//   field: 'course',
-//   headerName: 'Course',
-//   headerClassName: 'table-header',
-//   width: 150,
-// },
-// {
-//   field: 'createdAt',
-//   headerName: 'Create Date',
-//   headerClassName: 'table-header',
-//   width: 150,
-//   renderCell: (params) => moment(params.value).format('YYYY-MM-DD'),
-// },
-// {
 //   field: 'edit',
 //   headerName: 'Edit',
 //   headerClassName: 'table-header',

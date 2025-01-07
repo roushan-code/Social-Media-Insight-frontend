@@ -37,20 +37,7 @@ const AddPostDetails = () => {
         const toastId = toast.loading("New Post adding...")
         try {
 
-        // const data = new FormData();
-        // Object.entries(formData).forEach(([key, value]) => {
-        //   // console.log(key);
-        //   // console.log(value);
-        //   // if (key === 'postType') {
-        //   //   value.forEach((post) => data.append(key, post));
-        //   // } else {w
-        //     data.append(key, value);
-        //   // }
-        // });
-
-        // data.forEach((value, key) => {
-        //   console.log(key, value);
-        // });
+        
          await addPostDetails(formData).then((data) => {
             toast.success(data?.message, {id: toastId});
             setFormData({ postType: [], likes: '', comments: '', shares: '', });
